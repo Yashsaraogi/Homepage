@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khana khajana</title>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+display: flex;
+position: sticky;
+margin: 0px;
+align-items: center;
+top: 0px;
+}
+.navbar ::before{
+    content: "";
+    position: absolute;
+    background-color: rgb(31, 29, 29);
+top: 0px;
+left: 0px;
+height: 50px;
+width: 100%;
+opacity: 0.8;
+z-index: -1;
+}
+.navbar ul {
+    display: flex;
+    list-style-type: none;
+}
+.navbar ul li a{
+padding: 2px 25px;
+color: white;
+
+}
+#logo{
+    margin: 2px 25px;
+}
+#logo img{
+    height: 40px;
+
+}
+</style>
+</head>
+<body>
+    <nav class="navbar">
+        <div id="logo"><img src="circle-cropped.png" alt=""></div>
+        <ul>
+            <li class ="listitem"> <a href="#home"> Home </a></li>
+            <li class ="listitem"> <a href="#service"> Services </a></li>
+            <li class ="listitem"> <a href="#about"> About </a></li>
+            <li class ="listitem"> <a href="#contact"> Contact us</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
