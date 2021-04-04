@@ -11,6 +11,7 @@ display: flex;
 align-items: center;
 position: sticky;
 top: 0px;
+height: 80px;
 }
 
 .navbar::before{
@@ -31,7 +32,7 @@ list-style-type: none;
 .navbar ul li a{
 padding: 2px 25px;
 color: white;
-
+font-size: 23px;
 }
 .navbar ul li :hover{
 background-color: rgb(107, 102, 102);
@@ -40,11 +41,11 @@ background-color: rgb(107, 102, 102);
 margin: 2px 25px;
 }
 #logo img{
-height: 40px;
+height: 50px;
 }
 #section1{
 display: flex;
-height: 540px;
+height: 740px;
 flex-direction: column;
 padding: 2px 80px;
 text-align: center;
@@ -53,17 +54,21 @@ justify-content: center;
 }
 #section1 ::before{
 content: "";
-height: 590px;
+height: 790px;
 position: absolute;
 background: url("jay-wennington-N_Y88TWmGwA-unsplash.jpg") no-repeat center center/cover; 
 top: 0px;
 left: 0px;
 width: 100%;
-opacity: 0.6;
+opacity: 0.5;
 z-index: -1;
+}
+#para{
+    font-size: 38x;
 }
 h1{
 font: 800;
+font-size: 66px;
 }
 .maincont {
     display: flex;
@@ -73,7 +78,7 @@ font: 800;
 .cont{
     flex-basis: 25%;
    min-width: 20%; 
-   height: 700px;
+   height: 880px;
     border: 1px solid black;
      box-shadow: 5px; 
      margin: 20px;
@@ -97,13 +102,15 @@ padding: 0%;
     font-family: 'Rubik',  sans-serif;
     font-weight: 200;
 }
-h1{
+.h1{
     text-decoration: none;
     font-size: 35px;
     font-family: 'Oswald', sans-serif;
     align-items: center;
     font-weight: 600;
     padding: 10px;
+    text-align: center;
+    justify-content: center;
 }
 .btn {
 padding: 1px 40px;
@@ -142,7 +149,7 @@ padding: 34px;
 }
 
 #clients img{
-height: 124px;
+height: 170px;
 }
 
 footer{
@@ -154,6 +161,7 @@ padding: 10px 40px;
 background: black;
 color: white;
 padding: 9px 20px;
+bottom: 0%;
 }
 .h{
 font-family: 'Bree Serif', serif;
